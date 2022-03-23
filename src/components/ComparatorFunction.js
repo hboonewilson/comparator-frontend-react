@@ -14,16 +14,16 @@ export default function ComparatorFunction({func, onFuncClick, funcRef}) {
   }
   return (
     <Card style={{ width: '30rem' }}>
-    <Card.Body>
-    <Card.Title>{func.name}</Card.Title>
-    <Card.Text>
-      {`Input: ${func.input}`}
-      <br/>
-      {`Output: ${func.output}`}
-    </Card.Text>
-      {activeButton()}
-  </Card.Body>
-</Card>
+      <Card.Body>
+      <Card.Title>{func.name.toUpperCase()}</Card.Title>
+      <Card.Text>
+        {`Input: ${func.input}`}
+        <br/>
+        {`Output: ${func.output}`}
+      </Card.Text>
+        {activeButton()}
+      </Card.Body>
+    </Card>
   )
 }
 

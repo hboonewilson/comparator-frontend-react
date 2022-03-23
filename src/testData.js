@@ -14,7 +14,7 @@ const testData = {
           "input" : "Comparator Network not in paralell",
           "output" : "Comparator Network in parallel",
           "description" : "YOYoYO",
-          "isActive" : false
+          "isActive" : true
         },
         {
           "name" : "create",
@@ -22,15 +22,7 @@ const testData = {
           "input" : "Number n",
           "output" : "Parallel Comparator Network to sort Array of n elements",
           "description" : "YOYoYO",
-          "isActive" : false
-        },
-        {
-          "name" : "create",
-          "endPoint" : "/create",
-          "input" : "Number n",
-          "output" : "Parallel Comparator Network to sort array of N size",
-          "description" : "YOYoYO",
-          "isActive" : false
+          "isActive" : true
         },
         {
           "name" : "test",
@@ -38,7 +30,7 @@ const testData = {
           "input" : "Network",
           "output" : "True/False on if comparator network input Network is a comparator network",
           "description" : "YOYoYO",
-          "isActive" : false
+          "isActive" : true
         }
       ]
 }

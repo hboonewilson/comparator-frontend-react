@@ -48,13 +48,13 @@ function Navbar() {
         <div>
         <Nav variant="tabs" onSelect={(selectedKey) => navClickHandler(selectedKey)}>
             <Nav.Item>
-                <Nav.Link eventKey="home">Hawkeye Customs</Nav.Link>
+                <Nav.Link eventKey="home">Comparator Functions</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link eventKey="contact">Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="project-page">Project Page</Nav.Link>
+                <Nav.Link eventKey="project-page">Comparator Project Page</Nav.Link>
             </Nav.Item>
         </Nav>
         {renderPage(page)}

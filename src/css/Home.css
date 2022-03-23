@@ -5,3 +5,9 @@
 .selectedFunction {
   padding: 20px;
 }
+.layout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -50%);
+}

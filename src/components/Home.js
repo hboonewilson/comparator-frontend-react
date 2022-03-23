@@ -76,7 +76,8 @@ export default function Home() {
     <Container>
         <Row>
             <Col>{ functions.map(func => {return func}) }</Col>
-            <Col>{ func }</Col>
+            <Col>
+            <div className='layout'>{ func }</div></Col>
         </Row>
     </Container>
   );
